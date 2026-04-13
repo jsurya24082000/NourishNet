@@ -1,0 +1,1159 @@
+[
+  {
+    "id": 1,
+    "name": "Capital Area Food Bank",
+    "address": "4900 Puerto Rico Ave NE",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20017",
+    "phone": "(202) 526-5344",
+    "website": "https://www.capitalareafoodbank.org",
+    "hours": "Mon–Fri 8am–5pm",
+    "description": "Largest food bank in the DC metro area, distributing tens of millions of meals annually across DC and Northern Virginia through a network of 450+ partner agencies.",
+    "categories": [
+      "food_bank",
+      "mobile_distribution",
+      "snap_assistance"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "Amharic"
+    ],
+    "requirements": "None for partner agency pickups; individual pantry requirements vary by location.",
+    "lat": 38.9268,
+    "lng": -76.9836,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "canned goods",
+      "peanut butter",
+      "rice",
+      "pasta",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "food sorting",
+      "warehouse operations",
+      "mobile pantry support",
+      "administrative"
+    ],
+    "source": "dc_open_data",
+    "lastScraped": "2026-04-01T08:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 2,
+    "name": "SOME (So Others Might Eat)",
+    "address": "71 O St NW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20001",
+    "phone": "(202) 797-8806",
+    "website": "https://some.org",
+    "hours": "Daily 7am–9am (breakfast); Mon–Fri 11:30am–1pm (lunch)",
+    "description": "Interfaith nonprofit providing meals, healthcare, affordable housing, and job training to homeless and low-income DC residents since 1970.",
+    "categories": [
+      "meal_program",
+      "food_pantry",
+      "job_training",
+      "housing"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "requirements": "No requirements for meal services. Case management services require intake appointment.",
+    "lat": 38.9107,
+    "lng": -77.0139,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "monetary donations",
+      "hygiene items",
+      "clothing",
+      "canned goods"
+    ],
+    "volunteerNeeds": [
+      "meal service",
+      "cooking",
+      "tutoring",
+      "administrative"
+    ],
+    "source": "dc_open_data",
+    "lastScraped": "2026-04-01T08:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 3,
+    "name": "Bread for the City – NW Center",
+    "address": "1525 7th St NW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20001",
+    "phone": "(202) 265-2400",
+    "website": "https://breadforthecity.org",
+    "hours": "Mon–Fri 9am–5pm",
+    "description": "Provides food, clothing, medical care, and legal services to low-income DC residents. The NW center serves Ward 1, 2, and 6 residents.",
+    "categories": [
+      "food_pantry",
+      "social_services",
+      "medical",
+      "legal"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "French"
+    ],
+    "requirements": "DC residents with income at or below 60% AMI. Photo ID and proof of DC residency required.",
+    "lat": 38.9122,
+    "lng": -77.0219,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "fresh produce",
+      "dairy",
+      "protein items",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "food pantry",
+      "clothing room",
+      "reception",
+      "legal clinic support"
+    ],
+    "source": "dc_open_data",
+    "lastScraped": "2026-04-01T08:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 4,
+    "name": "Bread for the City – SE Center",
+    "address": "1640 Good Hope Rd SE",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20020",
+    "phone": "(202) 561-8587",
+    "website": "https://breadforthecity.org",
+    "hours": "Mon–Fri 9am–5pm",
+    "description": "Southeast DC location of Bread for the City, serving Ward 7 and 8 residents with food, clothing, medical, and legal services.",
+    "categories": [
+      "food_pantry",
+      "social_services",
+      "medical",
+      "legal"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "requirements": "DC residents with income at or below 60% AMI. Photo ID and proof of DC residency required.",
+    "lat": 38.8612,
+    "lng": -76.9834,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "fresh produce",
+      "dairy",
+      "protein items",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "food pantry",
+      "clothing room",
+      "reception"
+    ],
+    "source": "dc_open_data",
+    "lastScraped": "2026-04-01T08:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 5,
+    "name": "Miriam's Kitchen",
+    "address": "2401 Virginia Ave NW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20037",
+    "phone": "(202) 452-8926",
+    "website": "https://miriamskitchen.org",
+    "hours": "Mon–Fri 7:30–9:30am (breakfast); Mon–Fri 11:30am–1pm (lunch)",
+    "description": "Provides gourmet meals and wraparound social services to chronically homeless adults in DC, with a mission to end chronic homelessness.",
+    "categories": [
+      "meal_program",
+      "social_services",
+      "housing"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "requirements": "Open to homeless and housing-insecure adults. No ID required for meals.",
+    "lat": 38.8988,
+    "lng": -77.0534,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "monetary donations",
+      "fresh ingredients",
+      "hygiene kits"
+    ],
+    "volunteerNeeds": [
+      "cooking",
+      "meal service",
+      "art programs",
+      "administrative"
+    ],
+    "source": "dc_open_data",
+    "lastScraped": "2026-04-01T08:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 6,
+    "name": "Martha's Table",
+    "address": "2375 Elvans Rd SE",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20020",
+    "phone": "(202) 328-6608",
+    "website": "https://marthastable.org",
+    "hours": "Mon–Sat 9am–4pm",
+    "description": "Supports strong children, strong families, and strong communities in DC through food access, early childhood education, and family support programs.",
+    "categories": [
+      "food_pantry",
+      "meal_program",
+      "children",
+      "education"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "Amharic"
+    ],
+    "requirements": "Open to all DC residents. No documentation required for food programs.",
+    "lat": 38.8468,
+    "lng": -76.9876,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "baby food",
+      "diapers",
+      "fresh produce",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "food pantry",
+      "meal prep",
+      "childcare support",
+      "tutoring"
+    ],
+    "source": "dc_open_data",
+    "lastScraped": "2026-04-01T08:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 7,
+    "name": "DC Central Kitchen",
+    "address": "425 2nd St NW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20001",
+    "phone": "(202) 234-0707",
+    "website": "https://dccentralkitchen.org",
+    "hours": "Mon–Fri 7am–3pm",
+    "description": "Prepares and distributes over 10,000 meals daily while training adults facing barriers to employment for culinary careers.",
+    "categories": [
+      "meal_program",
+      "job_training",
+      "mobile_distribution"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "requirements": "Meal distribution sites vary; culinary training program requires application and intake.",
+    "lat": 38.8993,
+    "lng": -77.0131,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "monetary donations",
+      "surplus food from restaurants/caterers",
+      "kitchen equipment"
+    ],
+    "volunteerNeeds": [
+      "kitchen prep",
+      "meal packaging",
+      "food recovery driving",
+      "events"
+    ],
+    "source": "dc_open_data",
+    "lastScraped": "2026-04-01T08:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 8,
+    "name": "Friendship Place",
+    "address": "4713 Wisconsin Ave NW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20016",
+    "phone": "(202) 364-1419",
+    "website": "https://friendshipplace.org",
+    "hours": "Mon–Fri 9am–5pm; Drop-in hours vary",
+    "description": "Helps people experiencing homelessness rebuild their lives through housing, employment, and food assistance programs in upper NW DC.",
+    "categories": [
+      "meal_program",
+      "food_pantry",
+      "housing",
+      "social_services"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "requirements": "Open to homeless and at-risk adults in DC. No ID required for drop-in services.",
+    "lat": 38.9476,
+    "lng": -77.0793,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "non-perishable food",
+      "hygiene products",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "meal service",
+      "outreach",
+      "administrative",
+      "events"
+    ],
+    "source": "dc_open_data",
+    "lastScraped": "2026-04-01T08:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 9,
+    "name": "Manna Food Center",
+    "address": "9311 Gaither Rd",
+    "city": "Gaithersburg",
+    "state": "MD",
+    "zip": "20877",
+    "phone": "(301) 424-1130",
+    "website": "https://mannafood.org",
+    "hours": "Mon–Thu 10am–1pm & 6–8pm; Sat 9am–12pm",
+    "description": "Montgomery County's largest food bank, providing groceries and nutrition education to over 30,000 residents annually.",
+    "categories": [
+      "food_bank",
+      "food_pantry",
+      "mobile_distribution",
+      "snap_assistance"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "French",
+      "Amharic"
+    ],
+    "requirements": "Montgomery County residents. Proof of address required. Income guidelines apply.",
+    "lat": 39.1434,
+    "lng": -77.2108,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "canned protein",
+      "peanut butter",
+      "cereal",
+      "cooking oil",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "food sorting",
+      "pantry shifts",
+      "mobile pantry",
+      "driving",
+      "administrative"
+    ],
+    "source": "md_open_data",
+    "lastScraped": "2026-04-02T08:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 10,
+    "name": "AFAC – Arlington Food Assistance Center",
+    "address": "2708 S Nelson St",
+    "city": "Arlington",
+    "state": "VA",
+    "zip": "22206",
+    "phone": "(703) 820-3380",
+    "website": "https://afac.org",
+    "hours": "Mon/Wed/Fri 10am–1pm; Tue/Thu 6–8pm; Sat 10am–12pm",
+    "description": "Provides supplemental groceries to food-insecure Arlington County residents, serving over 2,500 households per month.",
+    "categories": [
+      "food_pantry",
+      "produce",
+      "mobile_distribution"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "Amharic",
+      "Arabic"
+    ],
+    "requirements": "Arlington County residents. Self-declaration of need; no income verification required.",
+    "lat": 38.8462,
+    "lng": -77.0892,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "fresh produce",
+      "canned goods",
+      "rice",
+      "beans",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "food sorting",
+      "client services",
+      "produce rescue",
+      "driving"
+    ],
+    "source": "va_open_data",
+    "lastScraped": "2026-04-03T08:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 11,
+    "name": "Hyattsville Help",
+    "address": "4504 Queensbury Rd",
+    "city": "Riverdale",
+    "state": "MD",
+    "zip": "20737",
+    "phone": "(301) 864-0496",
+    "website": "https://hyattsvillehelp.org",
+    "hours": "Tue & Thu 10am–12pm; Sat 9–11am",
+    "description": "Community-based food pantry serving low-income families in Hyattsville and surrounding Prince George's County communities.",
+    "categories": [
+      "food_pantry",
+      "children",
+      "senior"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "requirements": "Prince George's County residents. Photo ID and proof of address required.",
+    "lat": 38.9626,
+    "lng": -76.9218,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "canned vegetables",
+      "pasta",
+      "cereal",
+      "baby food",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "food sorting",
+      "pantry shifts",
+      "delivery driving"
+    ],
+    "source": "pg_county_cfec",
+    "lastScraped": "2026-04-02T09:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 12,
+    "name": "Food for Others",
+    "address": "2938 Hunter Mill Rd",
+    "city": "Oakton",
+    "state": "VA",
+    "zip": "22124",
+    "phone": "(703) 385-0608",
+    "website": "https://foodforothers.org",
+    "hours": "Mon–Fri 10am–2pm; Tue & Thu 6–8pm",
+    "description": "Provides emergency and supplemental food to Fairfax County residents in need, distributing over 2 million pounds of food annually.",
+    "categories": [
+      "food_pantry",
+      "mobile_distribution",
+      "snap_assistance"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "Korean",
+      "Vietnamese"
+    ],
+    "requirements": "Fairfax County residents. Self-declaration of need accepted.",
+    "lat": 38.8832,
+    "lng": -77.3012,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "canned goods",
+      "peanut butter",
+      "cooking oil",
+      "rice",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "food sorting",
+      "pantry shifts",
+      "mobile pantry",
+      "administrative"
+    ],
+    "source": "va_open_data",
+    "lastScraped": "2026-04-03T08:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 13,
+    "name": "Catholic Charities – Hyattsville",
+    "address": "6908 Riggs Rd",
+    "city": "Hyattsville",
+    "state": "MD",
+    "zip": "20783",
+    "phone": "(301) 891-7500",
+    "website": "https://catholiccharitiesdc.org",
+    "hours": "Mon–Fri 9am–5pm",
+    "description": "Offers emergency food assistance, immigration legal services, and social support to low-income families in Prince George's County.",
+    "categories": [
+      "food_pantry",
+      "social_services",
+      "snap_assistance",
+      "immigration"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "French",
+      "Portuguese"
+    ],
+    "requirements": "Open to all regardless of faith. Income verification may be required for some programs.",
+    "lat": 38.9712,
+    "lng": -76.9578,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "non-perishable food",
+      "hygiene items",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "food pantry",
+      "reception",
+      "translation",
+      "administrative"
+    ],
+    "source": "pg_county_cfec",
+    "lastScraped": "2026-04-02T09:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 14,
+    "name": "Bowie Food Pantry",
+    "address": "13901 Excalibur Rd",
+    "city": "Bowie",
+    "state": "MD",
+    "zip": "20720",
+    "phone": "(301) 262-4674",
+    "website": "https://bowiefoodpantry.org",
+    "hours": "Mon & Wed 6–8pm; Sat 9–11am",
+    "description": "Volunteer-run pantry serving Bowie and surrounding Prince George's County communities with emergency and supplemental groceries.",
+    "categories": [
+      "food_pantry",
+      "children",
+      "senior"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "requirements": "Prince George's County residents. No documentation required.",
+    "lat": 38.9426,
+    "lng": -76.7312,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "canned goods",
+      "pasta",
+      "cereal",
+      "baby formula",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "food sorting",
+      "pantry shifts",
+      "fundraising"
+    ],
+    "source": "pg_county_cfec",
+    "lastScraped": "2026-04-02T09:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": 15,
+    "name": "Carpenter's Shelter",
+    "address": "930 N Henry St",
+    "city": "Alexandria",
+    "state": "VA",
+    "zip": "22314",
+    "phone": "(703) 548-7500",
+    "website": "https://carpentersshelter.org",
+    "hours": "Daily 7am–9pm (shelter); Food services daily",
+    "description": "Alexandria's largest homeless shelter, providing meals, case management, and transitional housing to adults and families experiencing homelessness.",
+    "categories": [
+      "meal_program",
+      "food_pantry",
+      "housing",
+      "social_services"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "requirements": "Open to homeless adults and families in Alexandria. Intake required for shelter; meals open to all.",
+    "lat": 38.8148,
+    "lng": -77.0534,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "prepared meals",
+      "non-perishable food",
+      "hygiene products",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "meal service",
+      "cooking",
+      "tutoring",
+      "job coaching",
+      "administrative"
+    ],
+    "source": "va_open_data",
+    "lastScraped": "2026-04-03T08:00:00Z",
+    "dataQuality": "full"
+  },
+  {
+    "id": "scraped_9fa504616084",
+    "name": "Capital Area Food Bank",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://www.capitalareafoodbank.org/find-food-assistance/",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_0355ebcfaf0d",
+    "name": "Maryland Food Bank",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://mdfoodbank.org/find-food/",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_0c8e347f87cc",
+    "name": "Maryland Emergency Food Program Sites",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://geodata.md.gov/imapwab/?appid=f9a62c57de3d4e878f48604870ce0f06",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_e61e80016487",
+    "name": "Maryland Department of Emergency Management",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://mdem.maryland.gov/Pages/SNAP25.aspx",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_ef0dd4bdfb95",
+    "name": "Maryland Food System Resiliency Council",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://mdem.maryland.gov/pages/food-resilience.aspx",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_a1162a4ed0d4",
+    "name": "Anne Arundel Food Council",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://www.aacounty.org/food-council",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_b87d233fb9ab",
+    "name": "Frederick County Food Council",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://www.fcfoodcouncil.org/",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_19d44768254b",
+    "name": "Howard County Food Council",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://www.howardcountymd.gov/health/health-department-and-local-health-improvement-coalition-launch-food-council-combat-food",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_b88e9194db28",
+    "name": "Lower Shore Food Council (Somerset, Wicomico, Worcester)",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://somersethealth.org/wp-content/uploads/2019/11/Food-Pantries-04.21.20.docx.pdf",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_88e6e17bfb75",
+    "name": "Mid-Shore Food Council (Caroline, Dorchester, Talbot)",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://www.midshorehealth.org/food",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_d9ee3596f9d8",
+    "name": "Montgomery County Food Council",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://mocofoodcouncil.org/",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_8d4d6275dc4d",
+    "name": "Western MD Food Council",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://www.wmdfoodcouncil.com/",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_0990f4092732",
+    "name": "Food Assistance in Maryland homepage",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://extension.umd.edu/resource/food-assistance-maryland",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_889f25aac6f1",
+    "name": "Find Food In Maryland",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://extension.umd.edu/resource/find-food-maryland",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_2b95d07b343b",
+    "name": "Food and Resources for UMD Students",
+    "address": "",
+    "city": "",
+    "state": "MD",
+    "zip": null,
+    "phone": null,
+    "website": "https://extension.umd.edu/resource/food-and-resources-umd-students",
+    "hours": null,
+    "description": "Food access resource listed by UMD Extension. Visit the website for full details.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "See website for eligibility and requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": false,
+    "needsVolunteers": false,
+    "donationNeeds": [],
+    "volunteerNeeds": [],
+    "source": "umd_extension",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_1ac57b4aefbe",
+    "name": "Baltimore Office",
+    "address": "2200 Halethorpe Farms Rd",
+    "city": "",
+    "state": "MD",
+    "zip": "21227",
+    "phone": "(410) 737-8282",
+    "website": "https://mdfoodbank.org/about/locations/baltimore-office/",
+    "hours": null,
+    "description": "Food pantry partner of the Maryland Food Bank.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "Contact organization for eligibility requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "non-perishable food",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "food sorting",
+      "pantry shifts"
+    ],
+    "source": "md_food_bank",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_161c84195714",
+    "name": "Eastern Shore Branch",
+    "address": "28500 Owens Branch Rd",
+    "city": "",
+    "state": "MD",
+    "zip": "28500",
+    "phone": "(410) 742-0050",
+    "website": "https://mdfoodbank.org/about/locations/eastern-shore-branch/",
+    "hours": null,
+    "description": "Food pantry partner of the Maryland Food Bank.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "Contact organization for eligibility requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "non-perishable food",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "food sorting",
+      "pantry shifts"
+    ],
+    "source": "md_food_bank",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  },
+  {
+    "id": "scraped_7afce5254f7f",
+    "name": "Western Branch",
+    "address": "220 McRand Court",
+    "city": "",
+    "state": "MD",
+    "zip": "21740",
+    "phone": "(410) 737-8282",
+    "website": "https://mdfoodbank.org/about/locations/western-branch",
+    "hours": null,
+    "description": "Food pantry partner of the Maryland Food Bank.",
+    "categories": [
+      "food_pantry"
+    ],
+    "languages": [
+      "English"
+    ],
+    "requirements": "Contact organization for eligibility requirements.",
+    "lat": null,
+    "lng": null,
+    "acceptsDonations": true,
+    "needsVolunteers": true,
+    "donationNeeds": [
+      "non-perishable food",
+      "monetary donations"
+    ],
+    "volunteerNeeds": [
+      "food sorting",
+      "pantry shifts"
+    ],
+    "source": "md_food_bank",
+    "lastScraped": "2026-04-13T15:04:26.436Z",
+    "dataQuality": "link_only"
+  }
+]

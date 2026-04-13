@@ -1,0 +1,99 @@
+{
+  "dc_open_data": {
+    "sourceName": "DC Open Data",
+    "url": "https://opendata.dc.gov",
+    "type": "government_api",
+    "estimatedFrequency": "monthly",
+    "confidence": "high",
+    "notes": "DC HSA updates their social services dataset on a monthly cadence per their data dictionary. API is stable and versioned. Recommend scraping on the 1st of each month."
+  },
+  "md_open_data": {
+    "sourceName": "Maryland Open Data",
+    "url": "https://opendata.maryland.gov",
+    "type": "government_api",
+    "estimatedFrequency": "monthly",
+    "confidence": "high",
+    "notes": "Maryland DHHS food resource data is refreshed monthly. Socrata-based API with reliable uptime. Recommend scraping on the 2nd of each month to allow for upstream processing lag."
+  },
+  "pg_county_cfec": {
+    "sourceName": "PG County CFEC",
+    "url": "https://pgcfec.org",
+    "type": "nonprofit_html",
+    "estimatedFrequency": "weekly",
+    "confidence": "medium",
+    "notes": "HTML page with no API. Member directory changes when organizations join or update hours. Nonprofit sites often update without notice. Weekly scrape recommended; monitor for structural HTML changes that would break the parser."
+  },
+  "va_open_data": {
+    "sourceName": "Virginia Open Data",
+    "url": "https://data.virginia.gov",
+    "type": "government_api",
+    "estimatedFrequency": "monthly",
+    "confidence": "high",
+    "notes": "VDSS community resources dataset updated monthly. Socrata-based API. Virginia 211 data may update more frequently but requires separate API key. Recommend monthly scrape on the 3rd of each month."
+  },
+  "umd_extension": {
+    "sourceName": "UMD Extension",
+    "url": "https://extension.umd.edu/resource/food-access-resources/",
+    "type": "nonprofit_html",
+    "estimatedFrequency": "weekly",
+    "confidence": "low",
+    "notes": "Static HTML pages with no structured data or API. Update frequency is unpredictable — pages may go months without changes or update suddenly during food drives or seasonal programs. Weekly scrape is a reasonable default but low confidence. Consider reducing to bi-weekly if scrape consistently returns no new records.",
+    "lastContentHash": "cccc7baece7b3f9a989a0e38a5316bf6",
+    "lastScrapedAt": "2026-04-13T15:04:26.436Z",
+    "lastChangedAt": "2026-04-13T00:46:20.157Z",
+    "timesChanged": 1,
+    "observedIntervalDays": null
+  },
+  "dc_open_data_cafb": {
+    "sourceName": "DC Open Data (CAFB)",
+    "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Health_WebMercator/MapServer/67/query?where=1%3D1&outFields=*&f=json&resultRecordCount=200",
+    "type": "government_api",
+    "estimatedFrequency": "monthly",
+    "confidence": "heuristic",
+    "lastContentHash": "e50ee36b8435a20740c319cfe2a6d874",
+    "lastScrapedAt": "2026-04-13T15:04:26.422Z",
+    "lastChangedAt": "2026-04-13T00:46:20.144Z",
+    "timesChanged": 1,
+    "observedIntervalDays": null,
+    "notes": "No change interval observed yet — need at least 2 runs with content changes."
+  },
+  "pgcfec": {
+    "sourceName": "PG County CFEC",
+    "url": "https://pgcfec.org/resources/find-food-food-pantry-listings/",
+    "type": "nonprofit_html",
+    "estimatedFrequency": "daily",
+    "confidence": "observed",
+    "lastContentHash": "1f0a2f961e745825648585e3222aecb4",
+    "lastScrapedAt": "2026-04-13T15:04:26.434Z",
+    "lastChangedAt": "2026-04-13T14:58:58.284Z",
+    "timesChanged": 2,
+    "observedIntervalDays": 1,
+    "notes": "Observed avg change interval: 1 days. Confidence: observed."
+  },
+  "md_food_bank": {
+    "sourceName": "Maryland Food Bank",
+    "url": "https://mdfoodbank.org/find-food/",
+    "type": "nonprofit_html",
+    "estimatedFrequency": "monthly",
+    "confidence": "heuristic",
+    "lastContentHash": "8853ec2bcc91fcd480ca2bc1738e100e",
+    "lastScrapedAt": "2026-04-13T15:04:26.436Z",
+    "lastChangedAt": "2026-04-13T14:58:58.285Z",
+    "timesChanged": 1,
+    "observedIntervalDays": null,
+    "notes": "No change interval observed yet — need at least 2 runs with content changes."
+  },
+  "211_maryland": {
+    "sourceName": "211 Maryland",
+    "url": "https://search.211md.org/search?query=food+pantry&query_label=food+pantry&query_type=text",
+    "type": "nonprofit_api",
+    "estimatedFrequency": "daily",
+    "confidence": "observed",
+    "lastContentHash": "fb58a1213a3bd8dd22b4fe7a7b50a3a3",
+    "lastScrapedAt": "2026-04-13T15:04:26.437Z",
+    "lastChangedAt": "2026-04-13T15:04:26.437Z",
+    "timesChanged": 2,
+    "observedIntervalDays": 0,
+    "notes": "No change interval observed yet — need at least 2 runs with content changes."
+  }
+}

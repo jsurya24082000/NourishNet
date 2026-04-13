@@ -1,0 +1,396 @@
+/* ── Root ──────────────────────────────────────────────────────────────────── */
+.pp-root {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* ── Page header ───────────────────────────────────────────────────────────── */
+.pp-header {
+  margin-bottom: 2rem;
+}
+
+.pp-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--gray-900);
+  margin-bottom: 0.35rem;
+}
+
+.pp-subtitle {
+  color: var(--gray-600);
+  font-size: 1rem;
+}
+
+/* ── Stat cards ────────────────────────────────────────────────────────────── */
+.pp-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.pp-stat {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  box-shadow: var(--shadow);
+}
+
+.pp-stat-icon {
+  font-size: 1.4rem;
+  margin-bottom: 0.1rem;
+}
+
+.pp-stat-value {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--gray-900);
+  line-height: 1;
+}
+
+.pp-stat-label {
+  font-size: 0.8rem;
+  color: var(--gray-600);
+  font-weight: 500;
+}
+
+/* ── Architecture box ──────────────────────────────────────────────────────── */
+.pp-arch {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.pp-arch-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #1d4ed8;
+  margin-bottom: 0.6rem;
+}
+
+.pp-arch-text {
+  font-size: 0.9rem;
+  color: #1e3a5f;
+  line-height: 1.7;
+}
+
+/* ── Section ───────────────────────────────────────────────────────────────── */
+.pp-section {
+  margin-bottom: 3rem;
+}
+
+.pp-section-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 0.35rem;
+}
+
+.pp-section-sub {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  margin-bottom: 1rem;
+}
+
+/* ── Table label bar ───────────────────────────────────────────────────────── */
+.pp-table-label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.pp-table-num {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: #0D2B4E;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}
+
+.pp-table-name {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: 'Menlo', 'Consolas', monospace;
+  color: var(--gray-900);
+}
+
+.pp-table-desc {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+}
+
+.pp-row-count {
+  margin-left: auto;
+  font-size: 0.78rem;
+  color: var(--gray-600);
+  font-weight: 500;
+  background: var(--gray-100);
+  padding: 0.2rem 0.6rem;
+  border-radius: 10px;
+}
+
+/* ── Table ─────────────────────────────────────────────────────────────────── */
+.pp-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.pp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  background: white;
+}
+
+.pp-table thead tr {
+  background: var(--gray-50);
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.pp-table th {
+  padding: 0.65rem 0.9rem;
+  text-align: left;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gray-600);
+  white-space: nowrap;
+}
+
+.pp-table td {
+  padding: 0.65rem 0.9rem;
+  border-bottom: 1px solid var(--gray-100);
+  color: var(--gray-700);
+  vertical-align: top;
+}
+
+.pp-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.pp-table tbody tr:hover {
+  background: var(--gray-50);
+}
+
+.pp-td-name {
+  font-weight: 600;
+  color: var(--gray-900);
+  min-width: 180px;
+}
+
+.pp-td-time {
+  white-space: nowrap;
+  font-size: 0.78rem;
+  color: var(--gray-600);
+}
+
+.pp-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.pp-num--green {
+  color: var(--green);
+}
+
+.pp-code {
+  font-family: 'Menlo', 'Consolas', monospace;
+  font-size: 0.78rem;
+  background: var(--gray-100);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  color: var(--gray-700);
+  white-space: nowrap;
+}
+
+.pp-verified {
+  font-size: 0.78rem;
+  color: var(--gray-600);
+  white-space: nowrap;
+}
+
+.pp-link {
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+.pp-link:hover { text-decoration: underline; }
+
+/* ── Category tags ─────────────────────────────────────────────────────────── */
+.pp-cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+
+.pp-cat {
+  font-size: 0.68rem;
+  font-weight: 500;
+  padding: 0.15rem 0.45rem;
+  border-radius: 8px;
+  background: var(--gray-100);
+  color: var(--gray-700);
+  white-space: nowrap;
+}
+
+.pp-cat--more {
+  background: var(--gray-200);
+  color: var(--gray-600);
+}
+
+/* ── State badge ───────────────────────────────────────────────────────────── */
+.pp-state-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 10px;
+}
+
+.pp-state-badge--dc { background: #dbeafe; color: #1d4ed8; }
+.pp-state-badge--md { background: var(--green-light); color: var(--green-dark); }
+.pp-state-badge--va { background: var(--orange-light); color: #9a4a10; }
+
+/* ── Source label ──────────────────────────────────────────────────────────── */
+.pp-source {
+  font-size: 0.78rem;
+  color: var(--gray-600);
+  white-space: nowrap;
+}
+
+/* ── Status badge ──────────────────────────────────────────────────────────── */
+.pp-status {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.pp-status--green  { background: #d1fae5; color: #065f46; }
+.pp-status--red    { background: #fee2e2; color: #991b1b; }
+.pp-status--orange { background: var(--orange-light); color: #9a4a10; }
+.pp-status--gray   { background: var(--gray-100); color: var(--gray-600); }
+
+/* ── Type badge ────────────────────────────────────────────────────────────── */
+.pp-type-badge {
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 0.2rem 0.55rem;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.pp-type-badge--government_api { background: #dbeafe; color: #1d4ed8; }
+.pp-type-badge--nonprofit_html { background: #fef3c7; color: #92400e; }
+.pp-type-badge--nonprofit_api  { background: #f3e8ff; color: #6b21a8; }
+
+/* ── Confidence badge ──────────────────────────────────────────────────────── */
+.pp-conf {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.pp-conf--green  { background: #d1fae5; color: #065f46; }
+.pp-conf--orange { background: var(--orange-light); color: #9a4a10; }
+.pp-conf--gray   { background: var(--gray-100); color: var(--gray-600); }
+
+/* ── Notes toggle ──────────────────────────────────────────────────────────── */
+.pp-notes-btn {
+  font-size: 0.72rem;
+  color: var(--blue);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.pp-notes-btn:hover { text-decoration: underline; }
+
+.pp-notes-text {
+  font-size: 0.78rem;
+  color: var(--gray-600);
+  line-height: 1.5;
+  margin-top: 0.4rem;
+  max-width: 320px;
+}
+
+/* ── Data sources grid ─────────────────────────────────────────────────────── */
+.pp-sources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.pp-source-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  box-shadow: var(--shadow);
+}
+
+.pp-source-card:hover {
+  border-color: #0D2B4E;
+  box-shadow: var(--shadow-md);
+  text-decoration: none;
+}
+
+.pp-source-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.pp-source-type {
+  font-size: 0.72rem;
+  color: var(--gray-600);
+  font-weight: 500;
+}
+
+.pp-source-url {
+  font-size: 0.72rem;
+  color: var(--blue);
+  font-family: 'Menlo', 'Consolas', monospace;
+  margin-top: 0.1rem;
+  word-break: break-all;
+}
+
+/* ── Responsive ────────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .pp-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .pp-table th,
+  .pp-table td {
+    padding: 0.5rem 0.65rem;
+  }
+}
