@@ -2,6 +2,7 @@
   "name": "nourishnet",
   "version": "1.0.0",
   "description": "Food resource directory for Washington DC, Maryland, and Virginia",
+  "homepage": "https://jsurya24082000.github.io/NourishNet",
   "type": "module",
   "scripts": {
     "dev": "vite",
